@@ -1,0 +1,312 @@
+Paso 1: Entender los Momios
+Primero, necesitamos convertir los momios en probabilidades implícitas. Los momios dados son:
+
+A = 100
+B = 190
+C = 300
+Estos momios pueden ser interpretados en el contexto de apuestas estilo "decimales" para facilitar los cálculos.
+
+Paso 2: Convertir Momios a Probabilidades
+Para convertir los momios en probabilidades, utilizamos la fórmula:
+Probabilidad Impl
+ı
+ˊ
+cita
+=
+1
+Momio Decimal
+Probabilidad Impl 
+ı
+ˊ
+ cita= 
+Momio Decimal
+1
+​
+ 
+
+Sin embargo, los momios dados (A=100, B=190, C=300) parecen estar en un formato fraccional americano. Vamos a convertirlos a un formato decimal.
+
+A = 100 implica un pago de 1:1, entonces el momio decimal es 2.0
+B = 190 implica un pago de 1.9:1, entonces el momio decimal es 2.9
+C = 300 implica un pago de 3:1, entonces el momio decimal es 4.0
+Luego, las probabilidades implícitas son:
+𝑃
+(
+𝐴
+)
+=
+1
+2.0
+=
+0.5
+P(A)= 
+2.0
+1
+​
+ =0.5
+𝑃
+(
+𝐵
+)
+=
+1
+2.9
+≈
+0.3448
+P(B)= 
+2.9
+1
+​
+ ≈0.3448
+𝑃
+(
+𝐶
+)
+=
+1
+4.0
+=
+0.25
+P(C)= 
+4.0
+1
+​
+ =0.25
+
+Paso 3: Calcular la Suma de las Probabilidades
+Para verificar si hay una oportunidad de arbitraje:
+𝑃
+(
+𝐴
+)
++
+𝑃
+(
+𝐵
+)
++
+𝑃
+(
+𝐶
+)
+=
+0.5
++
+0.3448
++
+0.25
+=
+1.0948
+P(A)+P(B)+P(C)=0.5+0.3448+0.25=1.0948
+
+Como la suma de las probabilidades es mayor que 1, hay una oportunidad para arbitraje. Esto significa que es posible distribuir las fichas de tal manera que se garantice una ganancia sin importar el resultado del partido.
+
+Paso 4: Distribuir las Fichas para Asegurar Ganancias
+Para asegurar una ganancia, calculamos la cantidad de fichas que se deben apostar en cada resultado utilizando las siguientes fórmulas, donde 
+𝑆
+S es la cantidad total de fichas (100 en este caso):
+
+𝐴
+𝐴
+=
+𝑆
+Momio A
+=
+100
+2.0
+=
+50
+A 
+A
+​
+ = 
+Momio A
+S
+​
+ = 
+2.0
+100
+​
+ =50
+𝐴
+𝐵
+=
+𝑆
+Momio B
+=
+100
+2.9
+≈
+34.48
+A 
+B
+​
+ = 
+Momio B
+S
+​
+ = 
+2.9
+100
+​
+ ≈34.48
+𝐴
+𝐶
+=
+𝑆
+Momio C
+=
+100
+4.0
+=
+25
+A 
+C
+​
+ = 
+Momio C
+S
+​
+ = 
+4.0
+100
+​
+ =25
+
+Paso 5: Ajuste y Verificación
+Ajustemos ligeramente para asegurarnos de que la suma de las apuestas no exceda 100 fichas:
+𝐴
+𝐴
+=
+50
+A 
+A
+​
+ =50
+𝐴
+𝐵
+=
+34.48
+A 
+B
+​
+ =34.48
+𝐴
+𝐶
+=
+25
+A 
+C
+​
+ =25
+
+Sumamos estas apuestas:
+50
++
+34.48
++
+25
+=
+109.48
+50+34.48+25=109.48
+
+Esto excede las 100 fichas disponibles. Así que, ajustaremos proporcionalmente:
+
+𝑥
+=
+100
+/
+109.48
+≈
+0.9135
+x=100/109.48≈0.9135
+Entonces, ajustamos cada apuesta:
+𝐴
+𝐴
+′
+=
+50
+×
+0.9135
+≈
+45.68
+A 
+A
+′
+​
+ =50×0.9135≈45.68
+𝐴
+𝐵
+′
+=
+34.48
+×
+0.9135
+≈
+31.48
+A 
+B
+′
+​
+ =34.48×0.9135≈31.48
+𝐴
+𝐶
+′
+=
+25
+×
+0.9135
+≈
+22.84
+A 
+C
+′
+​
+ =25×0.9135≈22.84
+
+Estas apuestas suman aproximadamente 100 fichas.
+
+Paso 6: Cálculo del Retorno
+Verificamos el retorno:
+
+Si A gana: 
+45.68
+×
+2.0
+=
+91.36
+45.68×2.0=91.36
+Si B gana: 
+31.48
+×
+2.9
+≈
+91.29
+31.48×2.9≈91.29
+Si C gana: 
+22.84
+×
+4.0
+≈
+91.36
+22.84×4.0≈91.36
+En todos los casos, el retorno es muy cercano y alrededor de 91.3 fichas.
+
+Conclusión
+Distribuir tus 100 fichas de la siguiente manera minimiza el riesgo:
+
+Apuesta 45.68 fichas en A
+Apuesta 31.48 fichas en B
+Apuesta 22.84 fichas en C
+Esto asegura un retorno cercano a 91.3 fichas, independientemente del resultado del partido. Este modelo minimiza tu riesgo de pérdida y asegura un retorno positivo en cualquier escenario.
+
+
+
+
+
+
+
+
+Envía un mensaje a ChatGPT
+
+ChatGPT puede cometer errores. Considera verificar la 
